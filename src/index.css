@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.row {
+    @apply flex flex-wrap
+}
+.active{
+    @apply text-5xl text-orange-500
+}
+*{
+    @apply text-center
+}
